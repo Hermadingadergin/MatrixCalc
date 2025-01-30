@@ -33,10 +33,10 @@ Matrix createMatrix(int rows, int cols)
 	//	return outputM;
 	//}
 
-	for (size_t r = 0; r < rows; r++)
+	for (int r = 0; r < rows; r++)
 	{
 		outputM.push_back({ 0 });
-		for (size_t c = 1; c < cols; c++)
+		for (int c = 1; c < cols; c++)
 		{
 			outputM[r].emplace_back(0);
 		}
