@@ -1,0 +1,11 @@
+# ninja log v5
+12	253	7599006058432942	CMakeFiles/MatrixCalc.dir/src/matrix.cpp.obj	7d7fdece0b9b28b7
+4	297	7599005756959430	CMakeFiles/MatrixCalc.dir/src/main.cpp.obj	257402d18f09fc7f
+2320	2540	7599058686447472	test.exe	488a0eeb2376fd2b
+254	436	7599006060145234	MatrixCalc.exe	f4dcbcabd3e0216a
+13	268	7599052225122309	CMakeFiles/test.dir/src/matrix.cpp.obj	69c58f96b5480534
+1	2319	7599058684508165	CMakeFiles/test.dir/test/test.cpp.obj	f07dad7bacc568fa
+25	2366	7599060135504696	CMakeFiles/test.dir/test/test.cpp.obj	f07dad7bacc568fa
+2367	2602	7599060137610578	test.exe	488a0eeb2376fd2b
+18	2315	7599061803643453	CMakeFiles/test.dir/test/test.cpp.obj	f07dad7bacc568fa
+2317	2540	7599061805625736	test.exe	488a0eeb2376fd2b

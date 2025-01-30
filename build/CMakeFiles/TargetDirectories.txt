@@ -1,0 +1,3 @@
+C:/Users/capta/2024/ECE3574/ex/MatrixCalc/build/CMakeFiles/MatrixCalc.dir
+C:/Users/capta/2024/ECE3574/ex/MatrixCalc/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/capta/2024/ECE3574/ex/MatrixCalc/build/CMakeFiles/ZERO_CHECK.dir

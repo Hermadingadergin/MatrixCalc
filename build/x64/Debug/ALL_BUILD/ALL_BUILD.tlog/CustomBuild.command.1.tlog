@@ -1,0 +1,10 @@
+^C:\USERS\CAPTA\2024\ECE3574\EX\MATRIXCALC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/capta/2024/ECE3574/ex/MatrixCalc -BC:/Users/capta/2024/ECE3574/ex/MatrixCalc/build --check-stamp-file C:/Users/capta/2024/ECE3574/ex/MatrixCalc/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
