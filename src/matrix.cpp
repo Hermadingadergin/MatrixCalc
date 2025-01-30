@@ -102,7 +102,7 @@ Matrix multiplyMatrices(const Matrix& m1, const Matrix& m2)
 		throw std::invalid_argument("Input matrices have incompatible dimensions for this operation.");
 	}
 
-	Matrix outputM = createMatrix(m1.size(), m2[0].size());
+	Matrix outputM = createMatrix((int)m1.size(), (int)m2[0].size());
 	for (size_t r = 0; r < m1.size(); r++)
 	{
 		for (size_t c = 0; c < m2[0].size(); c++)
