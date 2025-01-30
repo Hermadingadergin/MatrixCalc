@@ -33,10 +33,10 @@ Matrix createMatrix(int rows, int cols)
 	//	return outputM;
 	//}
 
-	for (int r = 0; r < rows; r++)
+	for (size_t r = 0; r < rows; r++)
 	{
 		outputM.push_back({ 0 });
-		for (int c = 1; c < cols; c++)
+		for (size_t c = 1; c < cols; c++)
 		{
 			outputM[r].emplace_back(0);
 		}
@@ -59,9 +59,9 @@ Matrix addMatrices(const Matrix& m1, const Matrix& m2)
 
 	Matrix outputM = m1;;
 
-	for (int r = 0; r < m1.size(); r++)
+	for (size_t r = 0; r < m1.size(); r++)
 	{
-		for (int c = 0; c < m1[0].size(); c++)
+		for (size_t c = 0; c < m1[0].size(); c++)
 		{
 			outputM[r][c] = m1[r][c] + m2[r][c];
 		}
@@ -84,9 +84,9 @@ Matrix subtractMatrices(const Matrix& m1, const Matrix& m2)
 
 	Matrix outputM = m1;;
 
-	for (int r = 0; r < m1.size(); r++)
+	for (size_t r = 0; r < m1.size(); r++)
 	{
-		for (int c = 0; c < m1[0].size(); c++)
+		for (size_t c = 0; c < m1[0].size(); c++)
 		{
 			outputM[r][c] = m1[r][c] - m2[r][c];
 		}
@@ -103,11 +103,11 @@ Matrix multiplyMatrices(const Matrix& m1, const Matrix& m2)
 	}
 
 	Matrix outputM = createMatrix(m1.size(), m2[0].size());
-	for (int r = 0; r < m1.size(); r++)
+	for (size_t r = 0; r < m1.size(); r++)
 	{
-		for (int c = 0; c < m2[0].size(); c++)
+		for (size_t c = 0; c < m2[0].size(); c++)
 		{
-			for (int i = 0; i < m1[0].size(); i++)
+			for (size_t i = 0; i < m1[0].size(); i++)
 			{
 				outputM[r][c] += m1[r][i] * m2[i][c];
 			}
